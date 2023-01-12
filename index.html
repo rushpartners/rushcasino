@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+	<title>RushCasino</title>
+	<style>
+	*, ::after, ::before {
+    	box-sizing: border-box;
+	}
+	body {
+		font-family: 'Inter', sans-serif;
+		background:#0E1326;
+		margin:0 auto;
+	}
+	.header {
+		position:absolute;
+	}
+	.logo {
+		width:280px;
+		height:28px;
+		padding:40px;
+	}
+	.splash-content {
+		-webkit-box-align: center!important;
+    	-ms-flex-align: center!important;
+    	align-items: center!important;
+    	display: -webkit-box!important;
+    	display: -ms-flexbox!important;
+    	display: flex!important;
+	}
+	.splash-text {
+		width:50%;
+		padding:100px;
+		float:left;
+	}
+	.splash-image {
+		width:50%;
+		background:url('https://rush-cdn.s3.eu-west-1.amazonaws.com/rushcasino/splash.jpg') center no-repeat;
+		background-size:cover;
+		height:100vh;
+		float:left;
+	}
+	h2 {
+		color:white;
+		font-weight:600;
+		font-size:24px;
+		text-transform:uppercase;
+	}
+	h1 {
+		color:white;
+		font-weight:600;
+		font-size:44px;
+	}
+	@media (max-width:980px) {
+		.header {
+			position:relative;
+		}
+		.splash-content {
+			flex-direction:column;
+		}
+		.splash-text {
+			width:100%;
+			padding:40px;
+		}
+		.splash-image {
+			width:100%;
+		}
+		h2 {
+			font-size:18px;
+		}
+		h1 {
+			font-size:28px;
+		}
+	}
+	</style>
+</head>
+<body>
+
+<div class="header">
+	<div class="logo"><img src="https://rush-cdn.s3.eu-west-1.amazonaws.com/rushcasino/rush-casino-logo.svg" class="Rush Casino"/></div>
+</div>
+
+<div class="splash-content" style="height: 100vh;">
+    <div class="splash-text">
+    	<h2>Coming Soon</h2>
+		<h1>We are working on a new and improved casino experience</h1>
+	</div>
+	<div class="splash-image"></div>
+  </div>
+
+</body>
+</html>
